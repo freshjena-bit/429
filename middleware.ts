@@ -24,13 +24,13 @@ export function middleware(request: NextRequest) {
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>429: TOO_MANY_REQUESTS</title>
-<style>body{margin:0;color:#000;background:#fff;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;display:flex;align-items:center;justify-content:center;height:100vh}.c{border:1px solid #e5e7eb;border-radius:.25rem;padding:1.5rem;max-width:36rem;width:100%;margin:0 1rem;box-shadow:0 1px 2px 0 rgba(0,0,0,.05)}h1{font-size:1.125rem;font-weight:600;margin:0 0 1rem 0;line-height:1.75rem}p{font-size:.875rem;color:#6b7280;margin:0 0 .5rem 0;line-height:1.25rem}p:last-child{margin-bottom:0}code{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;background:#f3f4f6;padding:.125rem .3125rem;border-radius:.25rem;font-size:.8125rem;color:#111827}</style>
+<style>body{margin:0;padding:0;display:flex;align-items:center;justify-content:center;min-height:100vh;background:#fff;color:#000;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}.c{max-width:36rem;width:100%;margin:0 1rem;padding:1.5rem;border:1px solid #e5e7eb;border-radius:.25rem;box-shadow:0 1px 2px 0 rgba(0,0,0,.05)}h1{font-size:1.125rem;font-weight:600;margin:0 0 1rem;line-height:1.75rem}p{font-size:.875rem;color:#666;margin:0 0 .5rem;line-height:1.25rem}p:last-child{margin-bottom:0}code{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;font-size:.8125rem;background:#f3f4f6;padding:.125rem .3125rem;border-radius:.25rem;color:#111827}strong{font-weight:600}</style>
 </head>
 <body>
 <div class="c">
 <h1>429: TOO_MANY_REQUESTS</h1>
-<p>Code: <code>INTERNAL_FUNCTION_RATE_LIMIT</code></p>
-<p>ID: <code>lhr1::258d8-1638206292557-de4add7172e7</code></p>
+<p><strong>Code:</strong> <code>INTERNAL_FUNCTION_RATE_LIMIT</code></p>
+<p><strong>ID:</strong> <code>lhr1::258d8-1638206292557-de4add7172e7</code></p>
 </div>
 </body>
 </html>`;
