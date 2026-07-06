@@ -11,7 +11,7 @@ const WINDOW_MS = 10 * 1000; // Jendela waktu (10 detik) - dibuat cepat untuk ke
 
 export function middleware(request: NextRequest) {
   // 1. Ambil IP pengguna
-  const ip = request.ip || 'unknown-ip';
+  const ip = request.headers.get('x-forwarded-for')?.split(',')[0]?.trim() || 'unknown-ip';
   const now = Date.now();
 
   // 2. Cek hitungan request sebelumnya
